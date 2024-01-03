@@ -28,6 +28,7 @@ export const CoinsTable = () => {
         <div className=' flex justify-center text-center font-small text-4xl py-6 text-slate-100'>Cryptocurrency Prices by Market Cap </div>
         <input className='w-full py-3 pl-4 bg-transparent text-slate-100 outline outline-slate-600 outline-1' 
         type='search' placeholder='Search Crypto Coin...' id='search' value={search} onChange={(e)=>setSearch(e.target.value)}/>
+        
     </div>
   )
 }
